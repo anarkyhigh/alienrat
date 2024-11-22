@@ -1,0 +1,12 @@
+.
+.
+ public final void run() {
+                try {
+                    ServerSocket serverSocket = new ServerSocket(45555);
+                    Object object = _SOCKS5.this.a;
+                    Object object2 = _SOCKS5.this.a("ProxyServer");
+                    Object object3 = new StringBuilder();
+                    ((StringBuilder)object3).append(_SOCKS5.this.a("Port="));
+                    ((StringBuilder)object3).append(serverSocket.getLocalPort());
+                    ((_Utils)object).a((String)object2, ((StringBuilder)object3).toString());
+                    do {
